@@ -1,6 +1,5 @@
 public class CreditPaymentService {
-    int loanAmount;
-    int loanPeriodInYears;
+
     private double interestRate = 9.99;
     private double interestRatePerMonth = interestRate / 100 / 12;
 

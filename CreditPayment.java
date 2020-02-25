@@ -1,8 +1,8 @@
 public class CreditPayment {
     public static void main(String[] args) {
-        CreditPaymentService CreditPaymentService = new CreditPaymentService();
+        CreditPaymentService creditPaymentService = new CreditPaymentService();
 
-        System.out.println("Сумма ежемесячного платежа составляет " + (int) CreditPaymentService.annuitetPaymentCalculate(1000000, 3));
+        System.out.println("Сумма ежемесячного платежа составляет " + (int) creditPaymentService.annuitetPaymentCalculate(1000000, 3));
 
 
     }
